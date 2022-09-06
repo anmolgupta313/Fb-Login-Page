@@ -1,0 +1,187 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(47, 47, 139);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+img{
+    width:200px;
+}
+
+#form-login{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+input[type="checkbox" i] {margin: 3px 3px 3px 1px;}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    row-gap: 5px;
+}
+
+#checkbox{color: white;}
+
+#login-button{
+    height: fit-content;
+    padding: 1px 10px 1px 10px;
+    cursor: pointer;
+}
+
+#main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(242 242 255 / 45%);
+}
+
+#mobile{display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+
+}
+
+h2{
+    color:rgb(47, 47, 139);
+    font-weight:800;
+    line-height: 1.2;
+}
+
+ul{
+    padding-inline-start: 15px;
+    list-style-type: square;
+    line-height: 1.6;
+    color: grey;
+}
+
+#getfbmobile{
+    background-color: rgb(47, 47, 139);
+    color: white;
+    font-weight: 500;
+    padding: 8px 15px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    margin-top: 60px;
+    margin-block-end: 0;
+    color: rgb(5, 5, 109);
+}
+
+#signup-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.formm{
+    color: rgb(5, 5, 109);
+}
+
+.input-signup{
+    padding: 5px 15px;
+    background-color: white;
+    margin-left: 3px;
+    border: solid .5px rgb(85, 85, 85);
+}
+
+#re-enter-email{
+    margin-left: -30px;
+}
+
+#select{
+    margin-left: 46px;
+}
+
+#select-bd{
+    margin-left: 14px;
+}
+
+#signupp{
+    background-color: rgb(46, 179, 46);
+    color: white;
+    width: 40%;
+    padding: 10px 12px;
+    border-width: 1px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 85px;
+    cursor: pointer;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(5, 5, 109);
+}
+
+footer{
+    background-color: white;
+}
+
+.language{
+    display: flex;
+    column-gap: 10px;
+    font-size: 14px;
+    margin-left: 95px;
+    margin-right: 95px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.term-footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.term{
+    display: flex;
+    column-gap: 10px;
+    font-size: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media(max-width:786px){
+    .language{
+        display: flex;
+        column-gap: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 14px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
